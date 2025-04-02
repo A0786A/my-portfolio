@@ -4,7 +4,7 @@ import { projects } from "@/data/projects";
 
 const Projects = () => {
   return (
-    <section className="py-20 min-h-screen bg-gray-100 dark:bg-gray-800 page-transition">
+    <section className="py-20 min-h-screen page-transition">
       <div className="container mx-auto px-4 md:px-8 mt-10">
         <motion.div 
           className="text-center mb-16"

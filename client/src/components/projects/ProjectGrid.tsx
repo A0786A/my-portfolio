@@ -8,7 +8,7 @@ const ProjectGrid = () => {
   const featuredProjects = projects.slice(0, 3);
 
   return (
-    <section id="projects" className="py-20 bg-gray-100 dark:bg-gray-800 page-transition">
+    <section id="projects" className="py-20 page-transition">
       <div className="container mx-auto px-4 md:px-8">
         <motion.div 
           className="text-center mb-16"
