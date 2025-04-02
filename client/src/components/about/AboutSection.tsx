@@ -3,7 +3,7 @@ import AnimatedSection from "@/lib/AnimatedSection";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900 page-transition">
+    <section id="about" className="py-20 bg-white dark:bg-gray-900 page-transition">
       <div className="container mx-auto px-4 md:px-8">
         <motion.div 
           className="text-center mb-16"
