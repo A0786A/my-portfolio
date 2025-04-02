@@ -36,7 +36,7 @@ const Header = ({ theme, toggleTheme }: HeaderProps) => {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="text-xl font-semibold tracking-tight hover:opacity-80 transition-opacity">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-400 dark:from-primary-400 dark:to-primary-300">Ali Alam</span>
+              <span className="text-primary-600 dark:text-primary-400">Ali Alam</span>
             </Link>
           </div>
 
