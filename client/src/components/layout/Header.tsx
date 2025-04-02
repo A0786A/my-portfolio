@@ -35,8 +35,8 @@ const Header = ({ theme, toggleTheme }: HeaderProps) => {
         <nav className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="text-xl font-semibold tracking-tight text-primary-700 dark:text-primary-400 hover:opacity-80 transition-opacity">
-              <span className="text-primary-700 dark:text-primary-400">Ali Alam</span>
+            <Link href="/" className="text-xl font-semibold tracking-tight hover:opacity-80 transition-opacity">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-400 dark:from-primary-400 dark:to-primary-300">Ali Alam</span>
             </Link>
           </div>
 
@@ -50,18 +50,18 @@ const Header = ({ theme, toggleTheme }: HeaderProps) => {
               Home
             </a>
             <a 
-              href="#projects" 
-              onClick={(e) => handleNavClick(e, "projects")}
-              className="nav-item font-medium text-gray-800 dark:text-gray-200 hover:text-primary-700 dark:hover:text-primary-400"
-            >
-              Projects
-            </a>
-            <a 
               href="#about" 
               onClick={(e) => handleNavClick(e, "about")}
               className="nav-item font-medium text-gray-800 dark:text-gray-200 hover:text-primary-700 dark:hover:text-primary-400"
             >
               About
+            </a>
+            <a 
+              href="#projects" 
+              onClick={(e) => handleNavClick(e, "projects")}
+              className="nav-item font-medium text-gray-800 dark:text-gray-200 hover:text-primary-700 dark:hover:text-primary-400"
+            >
+              Projects
             </a>
             <a 
               href="#hobbies" 

@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <ProjectGrid />
       <AboutSection />
+      <ProjectGrid />
       <HobbiesGrid />
       <Contact />
     </>

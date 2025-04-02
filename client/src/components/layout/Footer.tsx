@@ -38,20 +38,20 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="#projects" 
-                  onClick={(e) => handleNavClick(e, "projects")}
-                  className="text-gray-400 hover:text-primary-400 transition-colors"
-                >
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a 
                   href="#about" 
                   onClick={(e) => handleNavClick(e, "about")}
                   className="text-gray-400 hover:text-primary-400 transition-colors"
                 >
                   About
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="#projects" 
+                  onClick={(e) => handleNavClick(e, "projects")}
+                  className="text-gray-400 hover:text-primary-400 transition-colors"
+                >
+                  Projects
                 </a>
               </li>
               <li>
