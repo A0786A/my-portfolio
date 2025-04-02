@@ -17,7 +17,7 @@ const HobbiesGrid = () => {
             My <span className="text-primary-700 dark:text-primary-400">Hobbies</span>
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
-            When I'm not coding or exploring AI, here's what keeps me busy.
+            When I'm not building AI, here's what keeps me busy.
           </p>
         </motion.div>
         
