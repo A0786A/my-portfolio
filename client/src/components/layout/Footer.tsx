@@ -15,9 +15,9 @@ const Footer = () => {
           <div>
             <Link 
               href="/" 
-              className="text-xl font-semibold tracking-tight text-white hover:text-primary-400 transition-colors"
+              className="text-xl font-semibold tracking-tight text-primary-400 hover:text-primary-300 transition-colors"
             >
-              <span className="font-mono">{'{'}</span>Ali.Dev<span className="font-mono">{'}'}</span>
+              Ali Alam
             </Link>
             <p className="mt-4 text-gray-400">
               AI Developer and Machine Learning Engineer focused on building intelligent applications.

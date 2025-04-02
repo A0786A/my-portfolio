@@ -21,7 +21,7 @@ const Hero = () => {
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
               <span className="text-gray-900 dark:text-white">Hi, I'm </span>
-              <span className="text-primary-700 dark:text-primary-400">Ali Alam</span>
+              <span className="text-primary-700 dark:text-primary-400">Ali</span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-700 dark:text-gray-300">
               AI Developer & ML Engineer
