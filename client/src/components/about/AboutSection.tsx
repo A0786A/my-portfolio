@@ -21,20 +21,7 @@ const AboutSection = () => {
         </motion.div>
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-          <div className="lg:col-span-5">
-            <AnimatedSection delay={0.1}>
-              <div className="relative h-full">
-                <div className="w-full h-full bg-gradient-to-tr from-primary-200 to-primary-400 dark:from-primary-900 dark:to-primary-700 rounded-xl absolute -rotate-3 scale-95 opacity-40"></div>
-                <img 
-                  src="https://images.unsplash.com/photo-1596492784531-6c349bb3a1c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Ali Alam - AI Developer" 
-                  className="w-full h-full object-cover rounded-xl relative z-10 shadow-xl"
-                />
-              </div>
-            </AnimatedSection>
-          </div>
-          
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-12">
             <AnimatedSection delay={0.2}>
               <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
                 AI Developer & Machine Learning Engineer
