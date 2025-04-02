@@ -51,8 +51,8 @@ function App() {
       <main className="pt-16 md:pt-20">
         <Switch>
           <Route path="/" component={Home} />
-          <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
           <Route path="/hobbies" component={Hobbies} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
