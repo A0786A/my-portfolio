@@ -3,7 +3,7 @@ import AnimatedSection from "@/lib/AnimatedSection";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 bg-white dark:bg-gray-900 page-transition">
+    <section id="about" className="py-20 bg-gray-100 dark:bg-gray-800 page-transition">
       <div className="container mx-auto px-4 md:px-8">
         <motion.div 
           className="text-center mb-16"
@@ -30,7 +30,7 @@ const AboutSection = () => {
                   alt="Ali Alam - AI Developer" 
                   className="w-full h-full object-cover rounded-xl relative z-10 shadow-xl"
                 />
-                <div className="absolute -bottom-4 left-10 bg-white dark:bg-gray-800 px-6 py-3 rounded-lg shadow-lg z-20">
+                <div className="absolute -bottom-4 left-10 bg-white dark:bg-gray-700 px-6 py-3 rounded-lg shadow-lg z-20">
                   <p className="text-sm font-semibold text-primary-700 dark:text-primary-400">
                     6+ Years of Experience
                   </p>
