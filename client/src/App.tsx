@@ -6,7 +6,6 @@ import Projects from "@/pages/Projects";
 import About from "@/pages/About";
 import Hobbies from "@/pages/Hobbies";
 import Contact from "@/pages/Contact";
-import AIDemo from "@/pages/AIDemo";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { useState, useEffect } from "react";
@@ -56,7 +55,6 @@ function App() {
           <Route path="/projects" component={Projects} />
           <Route path="/hobbies" component={Hobbies} />
           <Route path="/contact" component={Contact} />
-          <Route path="/ai-demo" component={AIDemo} />
           <Route component={NotFound} />
         </Switch>
       </main>

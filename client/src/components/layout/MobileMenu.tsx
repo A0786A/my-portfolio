@@ -1,5 +1,3 @@
-import { Link, useLocation } from "wouter";
-
 interface MobileMenuProps {
   isOpen: boolean;
   onNavClick: (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => void;
@@ -7,8 +5,6 @@ interface MobileMenuProps {
 }
 
 const MobileMenu = ({ isOpen, onNavClick, onClose }: MobileMenuProps) => {
-  const [location] = useLocation();
-  
   return (
     <div className={`md:hidden bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 ${isOpen ? 'block' : 'hidden'}`}>
       <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
@@ -33,13 +29,6 @@ const MobileMenu = ({ isOpen, onNavClick, onClose }: MobileMenuProps) => {
         >
           Projects
         </a>
-        <Link 
-          href="/ai-demo"
-          onClick={onClose}
-          className={`py-2 px-4 font-medium text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md ${location === "/ai-demo" ? "text-primary-600 dark:text-primary-400" : ""}`}
-        >
-          AI Demo
-        </Link>
         <a 
           href="#hobbies" 
           onClick={(e) => onNavClick(e, "hobbies")}

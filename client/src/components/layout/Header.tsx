@@ -63,12 +63,6 @@ const Header = ({ theme, toggleTheme }: HeaderProps) => {
             >
               Projects
             </a>
-            <Link 
-              href="/ai-demo"
-              className={`nav-item font-medium text-gray-800 dark:text-gray-200 hover:text-primary-700 dark:hover:text-primary-400 ${location === "/ai-demo" ? "text-primary-600 dark:text-primary-400" : ""}`}
-            >
-              AI Demo
-            </Link>
             <a 
               href="#hobbies" 
               onClick={(e) => handleNavClick(e, "hobbies")}
