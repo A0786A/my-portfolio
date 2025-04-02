@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import Projects from "@/pages/Projects";
-import Resume from "@/pages/Resume";
+import About from "@/pages/About";
 import Hobbies from "@/pages/Hobbies";
 import Contact from "@/pages/Contact";
 import Header from "@/components/layout/Header";
@@ -52,7 +52,7 @@ function App() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/projects" component={Projects} />
-          <Route path="/resume" component={Resume} />
+          <Route path="/about" component={About} />
           <Route path="/hobbies" component={Hobbies} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />

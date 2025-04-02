@@ -36,7 +36,7 @@ const Header = ({ theme, toggleTheme }: HeaderProps) => {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="text-xl font-semibold tracking-tight text-primary-700 dark:text-primary-400 hover:opacity-80 transition-opacity">
-              <span className="font-mono">{'{'}</span>Alex.Dev<span className="font-mono">{'}'}</span>
+              Ali Alam
             </Link>
           </div>
 
@@ -57,11 +57,11 @@ const Header = ({ theme, toggleTheme }: HeaderProps) => {
               Projects
             </a>
             <a 
-              href="#resume" 
-              onClick={(e) => handleNavClick(e, "resume")}
+              href="#about" 
+              onClick={(e) => handleNavClick(e, "about")}
               className="nav-item font-medium text-gray-800 dark:text-gray-200 hover:text-primary-700 dark:hover:text-primary-400"
             >
-              Resume
+              About
             </a>
             <a 
               href="#hobbies" 

@@ -17,7 +17,7 @@ const Footer = () => {
               href="/" 
               className="text-xl font-semibold tracking-tight text-white hover:text-primary-400 transition-colors"
             >
-              <span className="font-mono">{'{'}</span>Alex.Dev<span className="font-mono">{'}'}</span>
+              <span className="font-mono">{'{'}</span>Ali.Dev<span className="font-mono">{'}'}</span>
             </Link>
             <p className="mt-4 text-gray-400">
               AI Developer and Machine Learning Engineer focused on building intelligent applications.
@@ -47,11 +47,11 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="#resume" 
-                  onClick={(e) => handleNavClick(e, "resume")}
+                  href="#about" 
+                  onClick={(e) => handleNavClick(e, "about")}
                   className="text-gray-400 hover:text-primary-400 transition-colors"
                 >
-                  Resume
+                  About
                 </a>
               </li>
               <li>
@@ -123,7 +123,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© {new Date().getFullYear()} Alex Developer. All rights reserved.</p>
+          <p className="text-gray-400">© {new Date().getFullYear()} Ali Alam. All rights reserved.</p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">Privacy Policy</a>
             <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">Terms of Service</a>

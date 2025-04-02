@@ -23,11 +23,11 @@ const MobileMenu = ({ isOpen, onNavClick, onClose }: MobileMenuProps) => {
           Projects
         </a>
         <a 
-          href="#resume" 
-          onClick={(e) => onNavClick(e, "resume")}
+          href="#about" 
+          onClick={(e) => onNavClick(e, "about")}
           className="py-2 px-4 font-medium text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
         >
-          Resume
+          About
         </a>
         <a 
           href="#hobbies" 

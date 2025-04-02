@@ -21,7 +21,7 @@ const Hero = () => {
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
               <span className="text-gray-900 dark:text-white">Hi, I'm </span>
-              <span className="text-primary-700 dark:text-primary-400">Alex</span>
+              <span className="text-primary-700 dark:text-primary-400">Ali Alam</span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-700 dark:text-gray-300">
               AI Developer & ML Engineer
@@ -72,7 +72,7 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-r from-primary-400 to-secondary-500 rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 opacity-20 blur-2xl"></div>
               <img 
                 src="https://images.unsplash.com/photo-1596492784531-6c349bb3a1c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                alt="Alex - AI Developer" 
+                alt="Ali Alam - AI Developer" 
                 className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl relative z-10"
               />
               <div className="absolute -bottom-4 -right-4 bg-white dark:bg-gray-800 px-4 py-2 rounded-lg shadow-lg z-20">
