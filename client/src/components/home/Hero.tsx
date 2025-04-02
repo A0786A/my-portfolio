@@ -36,12 +36,11 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4">
               <Button 
                 onClick={(e) => handleNavClick(e as any, "projects")} 
-                className="inline-flex items-center justify-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-md shadow-lg hover:shadow-xl transition-all duration-300"
+                className="inline-flex items-center justify-center px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-md shadow-lg hover:shadow-xl transition-all duration-300"
                 asChild
               >
                 <a href="#projects">
                   View Projects
-                  <i className="ri-arrow-right-line ml-2"></i>
                 </a>
               </Button>
               
