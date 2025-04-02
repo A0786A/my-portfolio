@@ -8,7 +8,7 @@ const ProjectGrid = () => {
   const featuredProjects = projects.slice(0, 3);
 
   return (
-    <section id="projects" className="py-20 bg-gray-100 dark:bg-gray-800 page-transition">
+    <section id="projects" className="py-20 bg-gray-800 dark:bg-gray-900 page-transition">
       <div className="container mx-auto px-4 md:px-8">
         <motion.div 
           className="text-center mb-16"
@@ -17,10 +17,10 @@ const ProjectGrid = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            AI <span className="text-primary-700 dark:text-primary-400">Projects</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+            AI <span className="text-primary-400">Projects</span>
           </h2>
-          <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Check out some of my recent work in artificial intelligence and machine learning.
           </p>
         </motion.div>
